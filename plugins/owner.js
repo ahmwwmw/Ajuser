@@ -30,10 +30,10 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*AJUSER created by aju*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*AHMED created by ah*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.OWNER + '\n AJUSER created by aju', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.OWNER + '\n AHMED created by ah', MessageType.text);
         }
     }));
 }
